@@ -26,7 +26,7 @@ or download the css on github and include in your project.
 .none   { text-decoration: none; }
 
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .under-ns  { text-decoration: underline; }
   .over-ns   { text-decoration: overline; }
   .strike-ns { text-decoration: line-through; }
@@ -34,7 +34,7 @@ or download the css on github and include in your project.
   .none-ns   { text-decoration: none; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .under-m  { text-decoration: underline; }
   .over-m   { text-decoration: overline; }
   .strike-m { text-decoration: line-through; }
@@ -42,7 +42,7 @@ or download the css on github and include in your project.
   .none-m   { text-decoration: none; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .under-l  { text-decoration: underline; }
   .over-l   { text-decoration: overline; }
   .strike-l { text-decoration: line-through; }
