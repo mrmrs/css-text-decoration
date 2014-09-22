@@ -9,13 +9,18 @@
 *  -l  = large
 
 ## Install
+Grab the css partial from github and include it in your project or alternatively
+you can install it via npm:
 ```
 npm install --save-dev css-text-decoration
 ```
-or download the css on github and include in your project.
+View on [npm](https://www.npmjs.org/package/css-text-decoration)
+
 
 ## File Size
 
+1.0K text-decoration.css
+797B text-decoration.min.css
 
 ## The Code
 ```
