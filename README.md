@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-text-decoration)
 ## File Size
 
 1.0K text-decoration.css
-797B text-decoration.min.css
+797B text-decoration.min.css 
+204B minified and gzipped
 
 ## The Code
 ```
