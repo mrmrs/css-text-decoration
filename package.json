@@ -1,7 +1,7 @@
 {
   "name": "css-text-decoration",
   "style": "text-decoration.css",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "homepage": "http://github.com/mrmrs/css-text-decoration",
   "description": "Css module of single purpose classes for text decoration",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   },
   "scripts": {
     "start": "tachyons src/css-text-decoration.css > css/css-text-decoration.css && tachyons src/css-text-decoration.css --minify > css/css-text-decoration.min.css && tachyons src/css-text-decoration.css --generate-docs --package=../../package.json > readme.md"
