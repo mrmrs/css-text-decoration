@@ -10,11 +10,11 @@
 
 
 @media screen and (min-width: 48em) {
-  .under-ns  { text-decoration: underline; }
-  .over-ns   { text-decoration: overline; }
-  .strike-ns { text-decoration: line-through; }
-  .blink-ns  { text-decoration: blink; }
-  .none-ns   { text-decoration: none; }
+  .under-s  { text-decoration: underline; }
+  .over-s   { text-decoration: overline; }
+  .strike-s { text-decoration: line-through; }
+  .blink-s  { text-decoration: blink; }
+  .none-s   { text-decoration: none; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
