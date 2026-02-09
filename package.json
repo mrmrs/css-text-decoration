@@ -1,38 +1,44 @@
 {
   "name": "css-text-decoration",
-  "style": "text-decoration.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-text-decoration",
-  "description": "Css module of single purpose classes for text decoration",
+  "version": "2.0.0",
+  "description": "Functional CSS for text-decoration",
+  "style": "dist/text-decoration.css",
+  "main": "dist/text-decoration.css",
+  "exports": {
+    ".": "./dist/text-decoration.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "text-decoration"
+    "text-decoration",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-text-decoration": {
+  "homepage": "https://github.com/mrmrs/css-text-decoration",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-text-decoration.git"
+    "url": "https://github.com/mrmrs/css-text-decoration.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-text-decoration/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-text-decoration/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
